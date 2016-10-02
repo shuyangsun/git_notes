@@ -22,7 +22,7 @@
 **git checkout [commitID]**
 * Checkout a specific commit, working copy will become identical to that commit.
 
-**git tag -a [tagID] -m "Message"
+**git tag -a [tagID] -m "Message"**
 * Tag current commit with a tagID (shortcut to this commitID, normally version number like v1.0), and a message.
 * The -a flag is to create an annotated tag, which let's us record our name, the date, and a descriptive message.
 
