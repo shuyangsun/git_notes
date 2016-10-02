@@ -1,6 +1,6 @@
 # Shuyang's Notes for Git Command Line
 
-## Commands:
+## Commands
 **git init**
 * Initialize a repo.
 
@@ -40,8 +40,6 @@
 **git clean -f**
 * Remove all untracked files.
 
-HEAD is Git's internal way of indicating the snapshot that is currently checked out.
-
 **git branch**
 * List all branches
 * [branchName]: Create a new branch, but does NOT check it out. Use "git checkout [branchName]" to checkout that branch.
@@ -57,3 +55,6 @@ HEAD is Git's internal way of indicating the snapshot that is currently checked 
 * --cached: Keep the file.
 * -f: Force removal.
 
+## Notes
+
+* HEAD is Git's internal way of indicating the snapshot that is currently checked out.
