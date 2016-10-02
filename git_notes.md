@@ -1,9 +1,11 @@
+# Shuyang's Notes for Git Command Line
 
-git init
-	Initialize a repo.
+## Commands:
+**git init**
+* Initialize a repo.
 
-git status
-	Check the status of a repo, this is for snapshots.
+**git status**
+* Check the status of a repo, this is for snapshots.
 
 git log
 	Check all the stagings, this is for commits.
