@@ -18,9 +18,11 @@
 **git commit**
 * Commit current stage, with auto opened text editor for commit messages.
 * -m "Commit Message": Commit with message inline instead of opening text editor.
+* -a: Stage all tracked files on commit.
 
 **git checkout [commitID]**
 * Checkout a specific commit, working copy will become identical to that commit.
+* -b: Create this branch and check it out.
 
 **git tag -a [tagID] -m "Message"**
 * Tag current commit with a tagID (shortcut to this commitID, normally version number like v1.0), and a message.
@@ -43,6 +45,7 @@
 **git branch**
 * List all branches
 * [branchName]: Create a new branch, but does NOT check it out. Use "git checkout [branchName]" to checkout that branch.
+* -r: List all remote branches.
 
 **git merge [branchName]**
 * Merge given branch to current branch.
@@ -54,6 +57,10 @@
 * Remove file and stop tracking it.
 * --cached: Keep the file.
 * -f: Force removal.
+
+**git push [upstream] [localBranch]**
+* Push branches onto remote.
+* -u: Without upstream settings.
 
 ## Notes
 
