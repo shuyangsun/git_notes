@@ -19,7 +19,7 @@ git commit
 	Commit current stage, with auto opened text editor for commit messages.
 	-m "Commit Message": Commit with message inline instead of opening text editor.
 
-git checkout [commitID]
+git checkout <commitID>
 	Checkout a specific commit, working copy will become identical to that commit.
 
 git tag -a [tagID] -m "Message"
